@@ -1,6 +1,7 @@
 package com.example.probe_control_tdd.service;
 
 import com.example.probe_control_tdd.model.CommandRequest;
+import com.example.probe_control_tdd.model.Direction;
 import com.example.probe_control_tdd.model.Probe;
 import org.springframework.stereotype.Service;
 

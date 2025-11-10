@@ -1,6 +1,13 @@
 package com.example.probe_control_tdd.service;
 
+import com.example.probe_control_tdd.model.CommandRequest;
+import com.example.probe_control_tdd.model.Direction;
+import com.example.probe_control_tdd.model.Probe;
+import org.junit.jupiter.api.Test;
+
 import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ProbeServiceTest {
     @Test

@@ -1,7 +1,9 @@
 package com.example.probe_control_tdd.controller;
 
 
+import com.example.probe_control_tdd.model.CommandRequest;
 import com.example.probe_control_tdd.model.Probe;
+import com.example.probe_control_tdd.service.ProbeService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
